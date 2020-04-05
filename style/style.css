@@ -1,0 +1,13 @@
+.blok{
+    text-align: justify;
+}
+.centr{
+    margin-left: auto;
+    margin-right: auto;
+}
+.tdr{
+    padding: 10px;
+}
+.dots{
+    list-style-type: none;
+}
