@@ -107,44 +107,7 @@ const osobnosti = [
         "image": "../img/einstein.jpg"
     },
 ];
-const literatura = [
-    {
-        "autor" : "neznámý autor",
-        "url" : "https://cs.wikipedia.org/wiki/P%C3%ADse%C5%88_o_Nibelunz%C3%ADch",
-        "dilo" : "Píseň o Nibelunzích",
-        "nemecky" : "Das Nibelungenlied",
-        "vydani" : "13. století",
-        "images" : [
-            "../img/pisen_o_nibelunzich.jpg",
-            "../img/pisen_o_nibelunzich_1.jpg"
-        ],
-        "popis" : "Píseň o Nibelunzích je dvoudílný středověký hrdinský epos, který vznikl ve 13. století a je napsán tehdejším lidovým jazykem – střední horní němčinou. Píseň o Nibelunzích je napsána ve zpěvných slokách rozdělených do čtyř řádků, jejich melodii však není možno s jistotou zrekonstruovat. Epos se skládá ze dvou částí: v první části stojí ve středu pozornosti Siegfriedova vražda, ve druhé pak pomsta jeho manželky Kriemhildy. Děj se odehrává v okolí Burgundské říše na Rýně a také (ve druhém díle) v jižním Německu a kolem Dunaje v dnešním Rakousku a Maďarsku. Obě části díla se k sobě mají jako příčina a následek. Historickým jádrem tohoto eposu je zničení Burgundské říše u Wormsu v pozdní antice."
-    },
-    {
-        "autor" : "Heinrich Heine",
-        "url" : "https://cs.wikipedia.org/wiki/Heinrich_Heine",
-        "dilo"  : "Kniha písní",
-        "nemecky" : "Buch der Lieder",
-        "vydani" : "1824",
-        "images" : [
-            "../img/lorelei.png",
-            "../img/kniha_pisni.jpg"
-        ],
-        "popis" : "Básnická sbírka z období romantismu, Kniha písní, vychází z lidové poezie a tvoří ji jednoduché melodické verše. Sbírku prostupují témata jako zhrzená láska, erotika a světobol. Nešťastné lásky se dotýká slavná báseň Lorelei, která postupem času zlidověla.",
-    }, 
-    {
-        "autor" : "Jacob a Wilhelm Grimmovi",
-        "url" : "https://cs.wikipedia.org/wiki/Brat%C5%99i_Grimmov%C3%A9",
-        "dilo" : "Pohádky bratří Grimmů",
-        "nemecky" : "Kinder- und Hausmärchen",
-        "vydani" : "1812",
-        "images" : [
-            "../img/grimms.jpg",
-            "../img/grimms_1.jpg"
-        ],
-        "popis" : "Pohádky bratří Grimmů byly publikovány ve dvou svazcích (1812–1815), poslední edice vyšla v roce 1857 a obsahovala 211 pohádek, dalších 28 bylo v dřívějších edicích, takže celkem tedy sbírka obsahovala 239 pohádkových příběhů. Pohádky byly zapsány podle ústní tradice, v prvním vydání bylo použito 10 dialektů německého jazyka. Některé pohádky se staly proslulými po celém světě, jsou půvabné svým kouzlem, motivy komunikace mezi lidmi a zvířaty a morálním patosem boje dobra se zlem. Mezi nejznámější publikované pohádky patří Sněhurka, Červená karkulka, Šípková Růženka či Jeníček a Mařenka."
-    }
-];
+
 $(function () {
     $("h4").on("click", function () {
         $(this).next().toggle(1500);
@@ -170,17 +133,4 @@ $(function () {
         let osobnost = osobnosti.find(item => {return item.name === jmeno});
         $(this).next().append(`<table class='table table-bordered'><tbody><tr><td class='font-weight-bold'>Datum narození</td><td>${osobnost.born}</td></tr><tr><td class='font-weight-bold'>Datum úmrtí</td><td>${osobnost.died}</td></tr></tbody></table><p class='blok'>${osobnost.description}<p>`).hide().show(2000);
     });
-    literatura.forEach((pismo)=>{
-        $("#literatura .row").append(`
-        <div class="col-md-4">
-            <img src="${pismo.img}" height="280" alt="Německá historická literární díla">
-            <h3 class="font-weight-bold">${pismo.dilo}</h3>
-            <h5><i>${pismo.autor}</i></h5>
-        </div>`)
-    })
-    //$("")
-    /*Zde bych chtěl vyplnit vždy po kliklnutí na osobu "colik", tzn. informace o osobnosti*/
-    /* 1. Musíte zajistit kliknutí na konkrétní odrážku obsahující jméno osobnosti*/
-
-
 });
