@@ -11,3 +11,10 @@
 .dots{
     list-style-type: none;
 }
+.fontik{
+    font-size: 19px;
+}
+.card {
+    margin-left: auto;
+    margin-right: auto;
+}
