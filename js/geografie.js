@@ -303,7 +303,7 @@ $(function () {
           <h4 class="bg-warning p-2 mt-2">${un.title}</h4><span class="badge badge-primary">
           ${un.income}</span>
           <p class="blok">${un.description}</p>`).slideDown(800);
-          /* Cyklus for pro vykreslení obrázků z JSON, kde je u každého objektu pole s odkazy na obrázky */
+            /* Cyklus for pro vykreslení obrázků z JSON, kde je u každého objektu pole s odkazy na obrázky */
             for (i = 0; i < un.img.length; i++) {
                 /* Metoda append mi zajistí změnu obrázků a výpis na konec. Z tohoto důvodu používám i metodu empty() */
                 $("#karty").append(`
