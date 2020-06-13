@@ -287,6 +287,8 @@ $(function () {
     });
     /* Kliknutí uživatele na objekt čtverce (zobrazuje památky UNESCO) */
     $("#mapa rect").on("click", function () {
+        /* Obarví se nám vybraná města na výchozí barvu, aby to uživatele nemátlo */
+        $("#mapa #g231 circle").css({ "fill": "red" }).attr("r", "11.709291");
         /* Do pomocné proměnné id si uložíme id z atributu tagu <rect> */
         let Id = $(this).attr("id");
         /* Do proměnné un (znázorňuje unESCO) pro si uložíme vyhledaný výraz z id, který se porovná s JSON daty a našeho Id */
