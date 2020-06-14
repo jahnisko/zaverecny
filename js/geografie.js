@@ -132,7 +132,7 @@ let unesco = [
             "../img/wies2.jpg",
         ],
         "income": "od 1983",
-        "description": "Poutní kostel sv. Josefa u bičovaného Spasitele ve Wies (německy Wieskirche) je rokokový kostel oválného tvaru, který se nachází v bavorské v obci Steingaden. Jeho počátky sahají do 40. let 18. století, kdy nahradil stávající kapli na tamějším návrší. Stavby se ujal Dominikus Zimmermann, německý rokokový architekt a štukatér, hlavní část malířské výzdoby je dílem jeho bratra Johanna Zimmermanna. Roku 1754 byl kostel vysvěcen. V současné době je často navštěvovaným poutním místem a kostel patří k nejvýznamnějším rokokovým stavbám. Od roku 1983 je součástí světového dědictví UNESCO.",
+        "description": "Poutní kostel sv. Josefa u bičovaného Spasitele ve Wies (německy Wieskirche) je rokokový kostel oválného tvaru, který se nachází v bavorské obci Steingaden. Jeho počátky sahají do 40. let 18. století, kdy nahradil stávající kapli na tamějším návrší. Stavby se ujal Dominikus Zimmermann, německý rokokový architekt a štukatér, hlavní část malířské výzdoby je dílem jeho bratra Johanna Zimmermanna. Roku 1754 byl kostel vysvěcen. V současné době je často navštěvovaným poutním místem a kostel patří k nejvýznamnějším rokokovým stavbám. Od roku 1983 je součástí světového dědictví UNESCO.",
     },
     {
         "id": "lorsch",
