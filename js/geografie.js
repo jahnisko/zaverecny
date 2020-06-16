@@ -152,7 +152,7 @@ let unesco = [
             "../img/messelsky1.jpg"
         ],
         "income": "od 1995",
-        "description": "Opatství Lorsch je bývalé benediktinské opatství v německém městě Lorsch, přibližně 10 km východně od města Worms. Patřilo mezi slavné kláštery z doby Karlovské dynastie ve Franské říši. Ačkoli se z něho zachovala jen vstupní brána, je to nejzachovalejší předrománská architektonická památka v Německu, od roku 1991 na seznamu Světového dědictví UNESCO.",
+        "description": "Messelský důl (německy Grube Messel) je paleontologická lokalita (lagerstätte) nedaleko německé vesnice Messel (vládní obvod Darmstadt, spolková země Hesensko). Díky svému významu pro poznání vývoje života bylo území o rozloze 0,7 km² zapsáno na seznam Světového dědictví UNESCO.",
     },
     {
         "id": "wartburg",
