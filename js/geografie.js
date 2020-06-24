@@ -298,7 +298,7 @@ $(function () {
         /* Vyčistí se nám oblast pro zobrazování obrázků u památek UNESCO */
         $("#karty").empty();
         /* Zde dojde k zobrazení informací o jednotlivé památce UNESCO. */
-        /* Já jsem uvedl pouze 11 "nejznámějších" památek, je jichc samozřejmě více - můžou se kdykoliv přidat */
+        /* Já jsem uvedl pouze 11 "nejznámějších" památek, je jich samozřejmě více - můžou se kdykoliv přidat */
         $("#odstavec").fadeOut(200, function () {
             /* Pomocí metody html vepíšeme informace do tagu <div> s id #odstavec */
             $("#odstavec").html(`
