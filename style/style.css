@@ -18,3 +18,17 @@
     margin-left: auto;
     margin-right: auto;
 }
+.scrollUp{
+    height: 40px;
+    width:40px;
+    position:fixed;
+    right:30px;
+    bottom:30px;
+    display:none;
+}/*
+@media only screen and (max-width: 760px) {
+   .scrollUp {
+       display: none; 
+    }
+ }
+*/
