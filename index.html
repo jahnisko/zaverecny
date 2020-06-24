@@ -18,7 +18,7 @@
     <header class="bg-dark text-warning text-center jumbotron jumbotron-fluid mb-0">
         <h1>Spolková republika Německo</h1>
     </header>
-    <nav class="navbar navbar-expand-sm navbar-light bg-warning navbar-light mb-4">
+    <nav class="navbar navbar-expand-sm navbar-light bg-warning navbar-light mb-4 nvbr">
         <a class="navbar-brand" href="#"><img src="img/znak.png" alt="Znak Německa" height="40"></a>
         <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
             aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,7 +33,8 @@
                         <a class="dropdown-item" href="#politika">Politické zřízení, klima</a>
                         <a class="dropdown-item" href="#historie">Stručná historie</a>
                         <a class="dropdown-item" href="#znaky">Znaky a symboly</a>
-                        <a class="dropdown-item" href="#souhrn">Stručný souhrn</a>
+                        <a class="dropdown-item dropdown-danger" href="#souhrn">Stručný souhrn</a>
+                        <a class="dropdown-item text-light bg-danger" href="#likvidace" id="zmena">Likvidace</a>
                     </div>
                 </li>
                 <li class="nav-item">
@@ -61,7 +62,7 @@
         <h4 class="bg-warning text-dark font-weight-bold mb-2 p-2 politicke1" id="politika">POLITICKÉ ZŘÍZENÍ, KLIMA
         </h4>
         <div id="politicke">
-            <h5 class="text-warning">Politické zřízení</h5>
+            <h5 class="text-warning gr">Politické zřízení</h5>
             <p class="blok"><b>Spolková republika Německo</b> <i>(něm. Bundesrepublik Deutschland)</i> je
                 středoevropský stát, rozdělený na <b>16 spolkových zemí</b>. Na západě sousedí Německo s Francií,
                 Lucemburskem, Belgií a Nizozemskem. Na severu je jeho sousedem Dánsko a jeho břehy jsou omývány
@@ -87,7 +88,7 @@
                 znamenal snížení dosavadního úředního odhadu stavu obyvatelstva o zhruba 1,1 miliónu lidí. Německo
                 je co do absolutního počtu imigrantů zemí, která je nejvíce postižena současnou evropskou migrační
                 krizí, zvláště v roce 2015.</p>
-            <h5 class="text-warning">Klimatické podmínky</h5>
+            <h5 class="text-warning gr">Klimatické podmínky</h5>
             <p class="blok">Celé území Německa patří k mírnému klimatickému pásmu Střední Evropy v převládajícím
                 západním prouděním vzduchu v přechodném pásmu mezi oceánským a kontinentálním klimatem. Podnebí v
                 Německu je ovlivňováno <a href="https://cs.wikipedia.org/wiki/Golfsk%C3%BD_proud"
@@ -100,7 +101,7 @@
                 činila +40,3 &deg;C.</p>
         </div>
         <h4 class="bg-warning text-dark font-weight-bold mb-2 p-2" id="historie">HISTORIE</h4>
-        <h5 class="text-warning">Starší dějiny</h5>
+        <h5 class="text-warning gr">Starší dějiny</h5>
         <p class="blok">
             Nález čelisti Mauer 1 v roce 1907 ukazuje, že pravěcí lidé byli na území Německa přítomni už před
             <b>600 000 lety</b>. Nejstarší dosud nalezené kompletní lovecké zbraně byly objeveny v uhelném dole
@@ -111,7 +112,7 @@
             území
             Německa Germáni a Keltové, ti obývali zejména sever a jih.
         </p>
-        <h5 class="text-warning">Mladší dějiny</h5>
+        <h5 class="text-warning gr">Mladší dějiny</h5>
         <p class="blok">
             Velkým otřesem pro území na kterém je dnešní Německo byla reformace, kterou v roce 1517 započal <a
                 href="https://cs.wikipedia.org/wiki/Martin_Luther">Martin Luther</a>. Boj mezi vyznavači nové
@@ -159,9 +160,9 @@
             včleněna do
             SRN. Hlavní město bylo přemístěno do sjednoceného Berlína.
         </p>
-        <h4 class="bg-warning text-dark font-weight-bold mb-2 p-2" id="znaky">ZNAKY A SYMBOLY</h4>
+        <h4 class="bg-warning text-dark font-weight-bold mb-2 p-2 jop" id="znaky">ZNAKY A SYMBOLY</h4>
         <img src="img/znak.png" alt="Znak Německa" height="200">
-        <img src="img/vlajka.png" alt="německá vlajka" height="200">
+        <img src="img/vlajka.png" class="vlajka" alt="německá vlajka" height="200">
 
         <ul class="blok">
             <li>
@@ -183,7 +184,7 @@
             </li>
         </ul>
         <h4 class="bg-warning text-dark font-weight-bold mb-2 p-2" id="souhrn">STRUČNÝ SOUHRN</h4>
-        <div class="row">
+        <div class="row blok">
             <div class="col-md-4">
                 <h5 class="text-warning">Geografie</h5>
                 <table class="table table-striped table-inverse table-responsive">
@@ -348,6 +349,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
     </script>
     <script src="js/index.js"></script>
+    <script src="js/likvidace.js"></script>
 </body>
 
 </html>
